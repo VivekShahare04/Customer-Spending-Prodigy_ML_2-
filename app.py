@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 
 # Load the model from the pickle file
 #@st.cache(allow_output_mutation=True)
