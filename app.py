@@ -4,7 +4,7 @@ import pickle
 import sklearn
 
 # Load the model from the pickle file
-#@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def load_model():
     with open('kmeans_model.pkl1', 'rb') as f:
         model = pickle.load(f)
